@@ -27,7 +27,8 @@ Tensorflow 2.5.0 or later
 * [VoTT](https://github.com/microsoft/VoTT)のインストール
 
 # 1. VoTT：アノテーション
-[VoTT](https://github.com/microsoft/VoTT)を使用してアノテーションを行い、CSV形式で出力します。
+[VoTT](https://github.com/microsoft/VoTT)を使用してアノテーションを行い、CSV形式で出力します。<br>
+アノテーション済みデータセットを利用する方は、この章を飛ばしてください。
 
 <details>
 <summary>VoTTのプロジェクト設定</summary>
