@@ -83,15 +83,14 @@ Tensorflow 2.5.0 or later
 ![2020-09-19 (14)](https://user-images.githubusercontent.com/37477845/94047588-41314780-fe0d-11ea-9574-0cb6c77f8be5.png)
 </details>
 
-# 2. Colaboratory：Object Detection API設定
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On
-/blob/master/[Colaboratory]TFLite_ModelMaker_Hands_On.ipynb)<br>
-以降の作業はGoogle Colaboratory上で実施します。く<br>
+# 2. Colaboratory：環境準備
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On/blob/master/[Colaboratory]TFLite_ModelMaker_Hands_On.ipynb)<br>
+以降の作業はGoogle Colaboratory上で実施します。<br>
 [Open In Colab]リンクからノートブックを開き、以下の順に実行してください。
 * パッケージインポート
 * パッケージインストール
 
-# 3.データセット準備
+# 3.Colaboratory：object_detector向けcsv作成
 「!mkdir dataset」実行後VoTTからエクスポートした画像ファイルとCSVファイルを格納してください。<br>
 格納後、以下を実行してください。<br>
 アノテーション済みファイルを利用する方は以下の「if False:」を「if True:」に変更して実施してください。
