@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/37477845/121361039-e4ac9300-c96f-11eb-81f5-d8ee3c08bd16.png" width="60%"><br>
 
 TensorFlow Lite Model Makerのハンズオン用資料です。<br>
-VoTTでのアノテーションをローカルPCで実施し、学習～推論はColaboratory上で実施します。<br><br>
+VoTTでのアノテーションをローカルPCで実施し、学習～推論はColaboratory上で実施します。<br>アノテーションを実施せずにアノテーション済みデータセットを利用することも出来ます。<br><br>
 以下の内容を含みます。<br>
 * データセット ※アノテーション未実施
 * データセット ※アノテーション済み
@@ -113,7 +113,7 @@ if False:
 * TensorFlow Lite形式でのモデルエクスポート(形式：完全整数量子化)
 * TensorFlow Lite形式でのモデルエクスポート(形式：Float16量子化) 
 
-# 6. Colaboratory：推論
+# 5. Colaboratory：推論
 以下の順に実行してください。
 * 推論(形式：完全整数量子化)
 * 推論(形式：Float16量子化) 
