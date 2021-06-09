@@ -98,7 +98,7 @@ If you do not want to perform the annotation hands-on, or if you want to try usi
 ```
 if False:
     !git clone https://github.com/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On
-    !cp -r "TFLite-ModelMaker-EfficientDet-Colab-Hands-On/02_dataset(Annotated)/*" "./dataset"
+    !cp -r TFLite-ModelMaker-EfficientDet-Colab-Hands-On/02_dataset\(Annotated\)/* ./dataset
 ```
 * Read CSV
 * Split Training data/validation data/Test data
