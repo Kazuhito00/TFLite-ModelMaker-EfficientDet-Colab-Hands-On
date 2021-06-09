@@ -28,59 +28,59 @@ The following is required as a preliminary preparation.
 * [VoTT](https://github.com/microsoft/VoTT) installation.
 
 # 1. VoTT：Annotation
-[VoTT](https://github.com/microsoft/VoTT)を使用してアノテーションを行い、CSV形式で出力します。
+Annotate using [VoTT](https://github.com/microsoft/VoTT) and output in CSV format.
 
 <details>
-<summary>VoTTのプロジェクト設定</summary>
+<summary>VoTT project settings</summary>
 	
-#### 「新規プロジェクト」を選択する
+#### Select "New Project"
 ![2020-09-19 (3)](https://user-images.githubusercontent.com/37477845/94047557-38407600-fe0d-11ea-8d10-041a27546e85.png)
-#### プロジェクト設定を行う
-表示名：TFLite-ModelMaker-EfficientDet-Colab-Hands-On<br>
-セキュリティトークン：Generate New Security Token<br>
-ソース接続：「Add Connection」を押下<br>
+#### Make project settings
+Display name：TFLite-ModelMaker-EfficientDet-Colab-Hands-On<br>
+Security token：Generate New Security Token<br>
+Source connection：Press「Add Connection」<br>
 ![2021-06-09 (1)](https://user-images.githubusercontent.com/37477845/121363447-ec6d3700-c971-11eb-93fb-3d9dc666a4a0.png)
-#### ソース接続の接続設定を行う
-表示名：TFLite-ModelMaker-EfficientDet-Colab-Hands-On-TrainData
+#### Set the connection of the source connection
+Display name：TFLite-ModelMaker-EfficientDet-Colab-Hands-On-TrainData
 ![2021-06-09 (2)](https://user-images.githubusercontent.com/37477845/121363605-1292d700-c972-11eb-9b4f-6a6a59815e53.png)
-プロバイダー：ローカルファイルシステム
+Provider: Local file system
 ![2021-06-09 (3)](https://user-images.githubusercontent.com/37477845/121364024-62719e00-c972-11eb-8973-475206566d58.png)
-フォルダーパス：クローンしたリポジトリの「01_dataset」ディレクトリを指定
+Folder path：Specify the "01_dataset" directory of the cloned repository
 ![2021-06-09 (4)](https://user-images.githubusercontent.com/37477845/121364031-630a3480-c972-11eb-9fb9-0ab94f4e53b7.png)
-#### ターゲット接続の接続設定を行う
-ターゲット接続：Add Connection
+#### Set the connection of the target connection
+Target connection：Add Connection
 ![2021-06-09 (5)](https://user-images.githubusercontent.com/37477845/121364032-63a2cb00-c972-11eb-9694-aa31354b6177.png)
-表示名：TFLite-ModelMaker-EfficientDet-Colab-Hands-On-Target<br>
-プロバイダー：ローカルファイルシステム<br>
-フォルダーパス：任意のディレクトリ<br>
+Display name：TFLite-ModelMaker-EfficientDet-Colab-Hands-On-Target<br>
+Provider:Local file system<br>
+Folder path：Arbitrary directory<br>
 ![2021-06-09 (6)](https://user-images.githubusercontent.com/37477845/121364035-643b6180-c972-11eb-85d0-af841609a1df.png)
-#### タグを追加し設定を保存する
-タグ：「Fish」を追加<br>
-「プロジェクトを保存」を押下
+#### Add tags and save settings
+Tags：Add "Fish"<br>
+Press "Save Project"
 ![94047577-3d9dc080-fe0d-11ea-9f4f-b5fe7727fc12](https://user-images.githubusercontent.com/37477845/94283906-98a9f180-ff8c-11ea-9e16-a546b26ba763.png)
 </details>
 
 <details>
-<summary>VoTTを使用してアノテーションを実施</summary>
+<summary>Annotate using VoTT</summary>
 	
-#### マウス左ドラッグで魚を選択する
+#### Select a fish by left dragging the mouse
 ![2020-09-19 (13)](https://user-images.githubusercontent.com/37477845/94047578-3e365700-fe0d-11ea-86b9-2d88ef24d0c0.png)
-#### TAGSから「Fish」を選択する
-南京錠のマークを選択しておくことでタグを使用するタグを固定することが可能
+#### Select "Fish" from TAGS
+You can lock the tag you want to use by selecting the padlock mark.
 ![2020-09-19 (14)](https://user-images.githubusercontent.com/37477845/94047588-41314780-fe0d-11ea-9574-0cb6c77f8be5.png)
 <!-- #### 12
 ![2020-09-19 (15)](https://user-images.githubusercontent.com/37477845/94047598-442c3800-fe0d-11ea-9285-d72713520a65.png)-->
 </details>
 
 <details>
-<summary>CSVエクスポート</summary>
+<summary>CSV export</summary>
 	
-#### エクスポート設定
-プロバイダー：コンマ区切り値（CSV）<br>
-アセットの状態：タグ付きアセットのみ<br>
-「エクスポート設定を保存」を押下する
+#### Export settings
+Provider：Comma separated values（CSV）<br>
+Asset status: Tagged assets only<br>
+Press "Save Export Settings"
 ![2021-06-09 (8)](https://user-images.githubusercontent.com/37477845/121364839-1bd07380-c973-11eb-90ca-25e237abb6f5.png)
-アノテーション画面からエクスポートマークを押下し、TFRecordをエクスポートする。
+Click the export icon from the annotation screen to export CSV.
 ![2020-09-19 (14)](https://user-images.githubusercontent.com/37477845/94047588-41314780-fe0d-11ea-9574-0cb6c77f8be5.png)
 </details>
 
