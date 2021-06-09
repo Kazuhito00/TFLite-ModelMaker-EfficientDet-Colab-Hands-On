@@ -19,7 +19,7 @@ This hands-on assumes about 1.5 hours.
 1. VoTT：Annotation(30-60minutes)
 1. Colaboratory：Environmental preparation
 1. Colaboratory：Convert to format read by object_detector
-1. Colaboratory：Model training(About 5minutes)
+1. Colaboratory：Model training(About 5-10minutes)
 1. Colaboratory：Inference
 
 # Preparations
