@@ -1,32 +1,33 @@
-[Japanese/[English](https://github.com/Kazuhito00/Tensorflow2-ObjectDetectionAPI-Colab-Hands-On/blob/master/README_EN.md)] 
+[[Japanese](README.md)/English] 
 
 # TFLite-ModelMaker-EfficientDet-Colab-Hands-On
 <img src="https://user-images.githubusercontent.com/37477845/121361039-e4ac9300-c96f-11eb-81f5-d8ee3c08bd16.png" width="60%"><br>
 
-TensorFlow Lite Model Makerのハンズオン用資料です。<br>
-VoTTでのアノテーションをローカルPCで実施し、学習～推論はColaboratory上で実施します。<br>アノテーションを実施せずにアノテーション済みデータセットを利用することも出来ます。<br><br>
-以下の内容を含みます。<br>
-* データセット ※アノテーション未実施
-* データセット ※アノテーション済み
-* Colaboratory用スクリプト(環境設定、モデル訓練、推論結果確認)
+Hands-on for TensorFlow Lite Model Maker.<br>
+Annotation with VoTT is performed on the local PC, and learning-inference is performed on Colaboratory.<br>
+You can also use the annotated dataset without annotating it.<br><br>
+This repository contains the following:<br>
+* Dataset (Annotation not implemented)
+* Dataset (Annotated)
+* Script for Google Colaboratory(Environment setting, model training, inference result confirmation)
 
 # Requirement
 Tensorflow 2.5.0 or later
 
 # Overview
-1時間30分程度のボリュームの想定です。
-1. VoTT：アノテーション(約30～60分)
-1. Colaboratory：環境準備
-1. Colaboratory：object_detector向けcsv作成
-1. Colaboratory：モデル訓練(約5分)
-1. Colaboratory：推論
+This hands-on assumes about 1.5 hours.
+1. VoTT：Annotation(30-60minutes)
+1. Colaboratory：Environmental preparation
+1. Colaboratory：Convert to format read by object_detector
+1. Colaboratory：Model training(About 5minutes)
+1. Colaboratory：Inference
 
 # Preparations
-事前準備として以下が必要です。
-* このリポジトリのローカル環境へのクローン
-* [VoTT](https://github.com/microsoft/VoTT)のインストール
+The following is required as a preliminary preparation.
+* Clone this repository to your local PC.
+* [VoTT](https://github.com/microsoft/VoTT) installation.
 
-# 1. VoTT：アノテーション
+# 1. VoTT：Annotation
 [VoTT](https://github.com/microsoft/VoTT)を使用してアノテーションを行い、CSV形式で出力します。
 
 <details>
