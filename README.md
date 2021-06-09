@@ -97,7 +97,7 @@ Tensorflow 2.5.0 or later
 ```
 if False:
     !git clone https://github.com/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On
-    !cp -r "TFLite-ModelMaker-EfficientDet-Colab-Hands-On/02_dataset(Annotated)/*" "./dataset"
+    !cp -r TFLite-ModelMaker-EfficientDet-Colab-Hands-On/02_dataset\(Annotated\)/* ./dataset
 ```
 * データセットCSV読み込み(Read CSV)
 * 学習データ/検証データ/テストデータ 分割
