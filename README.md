@@ -1,4 +1,4 @@
-[Japanese/[English](https://github.com/Kazuhito00/Tensorflow2-ObjectDetectionAPI-Colab-Hands-On/blob/master/README_EN.md)] 
+[Japanese/[English](https://github.com/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On/blob/main/README_EN.md)] 
 
 # TFLite-ModelMaker-EfficientDet-Colab-Hands-On
 <img src="https://user-images.githubusercontent.com/37477845/121361039-e4ac9300-c96f-11eb-81f5-d8ee3c08bd16.png" width="60%"><br>
