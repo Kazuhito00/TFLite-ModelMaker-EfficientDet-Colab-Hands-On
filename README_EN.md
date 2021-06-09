@@ -29,7 +29,7 @@ The following is required as a preliminary preparation.
 
 # 1. VoTT：Annotation
 Annotate using [VoTT](https://github.com/microsoft/VoTT) and output in CSV format.<br>
-Skip this chapter for annotations that use annotated datasets.
+If you use annotated datasets, skip this chapter.
 
 <details>
 <summary>VoTT project settings</summary>
