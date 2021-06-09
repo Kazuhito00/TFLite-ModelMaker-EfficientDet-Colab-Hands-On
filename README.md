@@ -91,7 +91,7 @@ Tensorflow 2.5.0 or later
 * パッケージインストール
 
 # 3.Colaboratory：object_detector向けcsv作成
-「!mkdir dataset」実行後VoTTからエクスポートした画像ファイルとCSVファイルを格納してください。<br>
+「!mkdir dataset」実行後、VoTTからエクスポートした画像ファイルとCSVファイルを格納してください。<br>
 格納後、以下を実行してください。<br>
 アノテーション済みファイルを利用する方は以下の「if False:」を「if True:」に変更して実施してください。
 ```
