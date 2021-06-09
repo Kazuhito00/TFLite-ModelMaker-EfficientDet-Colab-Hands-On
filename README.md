@@ -84,7 +84,7 @@ Tensorflow 2.5.0 or later
 </details>
 
 # 2. Colaboratory：環境準備
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On/blob/master/[Colaboratory]TFLite_ModelMaker_Hands_On.ipynb)<br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On/blob/main/%5BColaboratory%5DTFLite_ModelMaker_Hands_On.ipynb)<br>
 以降の作業はGoogle Colaboratory上で実施します。<br>
 [Open In Colab]リンクからノートブックを開き、以下の順に実行してください。
 * パッケージインポート
