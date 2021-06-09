@@ -84,7 +84,7 @@ Click the export icon from the annotation screen to export CSV.
 ![2020-09-19 (14)](https://user-images.githubusercontent.com/37477845/94047588-41314780-fe0d-11ea-9574-0cb6c77f8be5.png)
 </details>
 
-# 2. Colaboratory：環境準備
+# 2. Colaboratory：Environmental preparation
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On/blob/main/%5BColaboratory%5DTFLite_ModelMaker_Hands_On.ipynb)<br>
 Subsequent work will be performed on Google Colaboratory. <br>
 Open your notebook from the [Open In Colab] link and run it in the following order.
@@ -113,7 +113,7 @@ Please execute in the following order.
 * Export to TensorFlow Lite format(Full integer quantization)
 * Export to TensorFlow Lite format(Float16 quantization) 
 
-# 5. Colaboratory：推論
+# 5. Colaboratory：Inference
 Please execute in the following order.
 * Inference(Full integer quantization)
 * Inference(Float16 quantization) 
