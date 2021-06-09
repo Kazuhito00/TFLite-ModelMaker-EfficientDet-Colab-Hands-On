@@ -86,40 +86,40 @@ Click the export icon from the annotation screen to export CSV.
 
 # 2. Colaboratory：環境準備
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On/blob/main/%5BColaboratory%5DTFLite_ModelMaker_Hands_On.ipynb)<br>
-以降の作業はGoogle Colaboratory上で実施します。<br>
-[Open In Colab]リンクからノートブックを開き、以下の順に実行してください。
-* パッケージインポート
-* パッケージインストール
+Subsequent work will be performed on Google Colaboratory. <br>
+Open your notebook from the [Open In Colab] link and run it in the following order.
+* Install the required packages
+* Import the required packages
 
-# 3.Colaboratory：object_detector向けcsv作成
-「!mkdir dataset」実行後、VoTTからエクスポートした画像ファイルとCSVファイルを格納してください。<br>
-格納後、以下を実行してください。<br>
-アノテーション済みファイルを利用する方は以下の「if False:」を「if True:」に変更して実施してください。
+# 3.Colaboratory：Convert to format read by object_detector
+After executing "!mkdir dataset", store the image file and CSV file exported from VoTT.<br>
+After storing, execute the following.<br>
+If you do not want to perform the annotation hands-on, or if you want to try using the annotated data, change the following "if False:" to "if True:" and execute it.
 ```
 if False:
     !git clone https://github.com/Kazuhito00/TFLite-ModelMaker-EfficientDet-Colab-Hands-On
     !cp -r "TFLite-ModelMaker-EfficientDet-Colab-Hands-On/02_dataset(Annotated)/*" "./dataset"
 ```
-* データセットCSV読み込み(Read CSV)
-* 学習データ/検証データ/テストデータ 分割
-* object_detectorで読み込む形式に変換
+* Read CSV
+* Split Training data/validation data/Test data
+* Convert to format read by object_detector
 
-# 4. Colaboratory：モデル訓練
-以下の順に実行してください。
-* Model MakerでCSVファイルを読み込む
-* 物体検出のモデルアーキテクチャを選択
-* 訓練
-* モデル評価
-* TensorFlow Lite形式でのモデルエクスポート(形式：完全整数量子化)
-* TensorFlow Lite形式でのモデルエクスポート(形式：Float16量子化) 
+# 4. Colaboratory：Model training
+Please execute in the following order.
+* Import csv file with Model Maker
+* Choose an object detection model archiecture
+* Training
+* Model evaluate
+* Export to TensorFlow Lite format(Full integer quantization)
+* Export to TensorFlow Lite format(Float16 quantization) 
 
 # 5. Colaboratory：推論
-以下の順に実行してください。
-* 推論(形式：完全整数量子化)
-* 推論(形式：Float16量子化) 
+Please execute in the following order.
+* Inference(Full integer quantization)
+* Inference(Float16 quantization) 
 
 # Author
-高橋かずひと(https://twitter.com/KzhtTkhs)
+Kazuhito Takahashi(https://twitter.com/KzhtTkhs)
  
 # License 
 TFLite-ModelMaker-EfficientDet-Colab-Hands-On is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
