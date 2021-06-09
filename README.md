@@ -18,7 +18,7 @@ Tensorflow 2.5.0 or later
 1. VoTT：アノテーション(約30～60分)
 1. Colaboratory：環境準備
 1. Colaboratory：object_detector向けcsv作成
-1. Colaboratory：モデル訓練(約5分)
+1. Colaboratory：モデル訓練(約5～10分)
 1. Colaboratory：推論
 
 # Preparations
