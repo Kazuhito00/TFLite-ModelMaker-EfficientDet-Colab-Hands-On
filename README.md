@@ -118,6 +118,30 @@ if False:
 * 推論(形式：完全整数量子化)
 * 推論(形式：Float16量子化) 
 
+<!--
+tflite_model_maker.object_detector.EfficientDetSpec(
+    model_name: str,
+    uri: str,
+    hparams: str = '',
+    model_dir: Optional[str] = None,
+    epochs: int = 50,
+    batch_size: int = 64,
+    steps_per_execution: int = 1,
+    moving_average_decay: int = 0,
+    var_freeze_expr: str = '(efficientnet|fpn_cells|resample_p6)',
+    tflite_max_detections: int = 25,
+    strategy: Optional[str] = None,
+    tpu: Optional[str] = None,
+    gcp_project: Optional[str] = None,
+    tpu_zone: Optional[str] = None,
+    use_xla: bool = False,
+    profile: bool = False,
+    debug: bool = False,
+    tf_random_seed: int = 111111,
+    verbose: int = 0
+) -> None
+-->
+
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
  
