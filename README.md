@@ -140,6 +140,20 @@ tflite_model_maker.object_detector.EfficientDetSpec(
     tf_random_seed: int = 111111,
     verbose: int = 0
 ) -> None
+
+spec = model_spec.get('efficientdet_lite0')
+
+spec.config.tflite_max_detections = 1
+print(spec.config.tflite_max_detections)
+
+model = object_detector.create(
+    train_data, 
+    model_spec=spec,
+    validation_data=validation_data,
+    epochs=100,
+    batch_size=8, 
+    train_whole_model=True, 
+)
 -->
 
 # Author
